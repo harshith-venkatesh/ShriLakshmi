@@ -210,7 +210,7 @@ hr {
   .section-carousal {
     height: 300px;
     margin: auto;
-    overflow: auto;
+    overflow: hidden;
   }
 
 
