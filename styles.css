@@ -292,3 +292,46 @@ hr {
     max-width: 100%;
     width: 100%;
 }
+
+.information-section-image {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+}
+
+.information-section-message {
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+
+}
+
+.automobile-new-car {
+  background-image: url("https://media.istockphoto.com/photos/happy-family-choosing-a-new-car-in-a-showroom-picture-id1216835172?k=20&m=1216835172&s=612x612&w=0&h=THfkxHcKzZTRNOJ3-ZVdt6SWlER2f6a--b80FsS8poo=");
+}
+
+.automobile-used-car {
+  background-image: url("https://images.livemint.com/img/2020/01/22/1600x900/maruti_1579681679020.jpg");
+}
+
+.automobile-maintain-car {
+  background-image: url("https://www.cannonautorepair.com/images/mechanic_with_customer.jpeg");
+}
+
+.house-civil-construction {
+  background-image: url("https://5.imimg.com/data5/US/IT/UM/ANDROID-23455214/product-jpeg-500x500.jpg");
+}
+
+.house-painting {
+  background-image: url("https://4.imimg.com/data4/OS/EA/MY-2627823/house-painting-work-500x500.jpg");
+}
+
+.house-interior {
+  background-image: url("https://5.imimg.com/data5/XN/CO/CK/SELLER-42874186/ceiling-design-with-jaali-pattern-500x500.jpg");
+}
