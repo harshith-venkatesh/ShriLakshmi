@@ -64,14 +64,7 @@ hr {
     padding: 1rem;
 }
 
-.information-message-title {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  font-size: 1rem;
-  font-weight: bold;
-  color: white;
-}
+
 
 .navigation .nav-brand {
     font-weight: 700;
@@ -132,6 +125,7 @@ hr {
 .hero .hero-heading-inverted {
     color: var(--purple-50);
     font-weight: 800;
+    text-shadow: none;
     
 }
 
@@ -245,7 +239,7 @@ hr {
     left: 10px;
     right: 10px;
     background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
     display: flex;
   }
   
@@ -254,6 +248,7 @@ hr {
     font-size: 1rem;
     font-weight: bold;
     color: white;
+    text-shadow: 0 0 5px #171616, 0 0 5px #000000;
   }
   
   
@@ -306,9 +301,28 @@ hr {
     width: 450px;
     height: 200px;
     background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.05);
     display: flex;
     justify-content: center;
+}
+
+.information-section-image:hover {
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
+}
+
+.information-message-title {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #171616, 0 0 5px #000000;
+            
+}
+
+.information-message-title:hover {
+  color: white;
 }
 
 .information-section-message {
