@@ -64,6 +64,15 @@ hr {
     padding: 1rem;
 }
 
+.information-message-title {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
 .navigation .nav-brand {
     font-weight: 700;
     font-size: 1.1rem;
@@ -294,7 +303,7 @@ hr {
 }
 
 .information-section-image {
-    width: 300px;
+    width: 450px;
     height: 200px;
     background-size: cover;
     box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
@@ -339,6 +348,31 @@ hr {
   background-image: url("https://4.imimg.com/data4/OS/EA/MY-2627823/house-painting-work-500x500.jpg");
 }
 
-.house-interior {
-  background-image: url("https://5.imimg.com/data5/XN/CO/CK/SELLER-42874186/ceiling-design-with-jaali-pattern-500x500.jpg");
+.house-water-proofing {
+  background-image: url("https://5.imimg.com/data5/SELLER/Default/2021/4/AI/II/LL/34740075/house-building-construction-service-500x500.jpg");
+}
+
+.tourism-udupi {
+  background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/06/Sri-Krishna-Temple.jpg");
+}
+
+.tourism-hotel {
+  background-image: url("https://img.huffingtonpost.com/asset/5db14163210000ae2534ae1c.jpeg?cache=l9xmUCwyIJ&ops=scalefit_720_noupscale"); 
+}
+
+.tourism-engagement {
+  background-image: url("https://www.99entranceexam.in/wp-content/uploads/2018/01/Event-Management.jpg");
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .information-section-image {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+  }
 }
