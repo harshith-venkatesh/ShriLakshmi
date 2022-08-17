@@ -405,6 +405,11 @@ span {
   margin: auto;
 }
 
+.copyright-info {
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   .information-section-image {
     width: 300px;
@@ -425,3 +430,5 @@ span {
     font-size: 1.4rem;
   }
 }
+
+a { color: inherit; } 
