@@ -1,96 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap|Cedarville+Cursive');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap|Cedarville+Cursive");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-    --primary-color: #312e81;
-    --light-grey: #6b7280;
-    --dark-grey: #4b5563;
-    --lighter-grey: #f1f5f9;
-    --purple-50: #60a5fa;
-    --sky-800: #075985;
+  --primary-color: #312e81;
+  --light-grey: #6b7280;
+  --dark-grey: #4b5563;
+  --lighter-grey: #f1f5f9;
+  --purple-50: #60a5fa;
+  --sky-800: #075985;
 }
 
 body {
-    font-family: 'Montserrat', 'sans-serif';
-    margin:0px;
-    background-color: #EFF6FF;
+  font-family: "Montserrat", "sans-serif";
+  margin: 0px;
+  background-color: #eff6ff;
 }
 
 .container {
-    padding: 0rem 2rem;
+  padding: 0rem 2rem;
 }
 
 .container-center {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 /** link **/
 
 .link {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin: 1rem 0rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0rem;
 }
 
 .link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 0.1rem solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--primary-color);
 }
 
 hr {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .list-non-bullet {
-    list-style: none;
+  list-style: none;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
 .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
 }
 
-
-
 .navigation .nav-brand {
-    font-weight: 700;
-    font-size: 1.1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
 }
 
 .navigation .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 
 .navigation .link {
-    color: white;
+  color: white;
 }
 
 .navigation .link-active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /** header **/
 
 .hero {
-    padding: 2rem 2rem 0 2rem;
-    padding-top: 1rem;
+  padding: 2rem 2rem 0 2rem;
+  padding-top: 1rem;
 }
 
 .hero-background {
@@ -101,88 +100,86 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 50%;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
+  max-width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
 }
 
 .hero .hero-video {
-    max-width: 80%;
-    
-    display: block;
-    margin: auto;
+  max-width: 80%;
+
+  display: block;
+  margin: auto;
 }
 
 .hero .hero-heading {
-    padding: 1rem 0;
-    font-size: 2rem;
-    color: var(--light-grey);
-    text-align: center;
-    font-weight: 800;
-    
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--light-grey);
+  text-align: center;
+  font-weight: 800;
 }
 
 .hero .hero-heading-inverted {
-    color: var(--purple-50);
-    font-weight: 800;
-    text-shadow: none;
-    
+  color: var(--purple-50);
+  font-weight: 800;
+  text-shadow: none;
 }
 
 .mobile-heading {
   color: var(--sky-800);
   font-weight: 800;
-    text-shadow: none;
+  text-shadow: none;
 }
 
 /** sections **/
 
 .section {
-    padding: 2rem;
+  padding: 2rem;
 }
 
-.section h1,h4 {
-    text-align: center;
+.section h1,
+h4 {
+  text-align: center;
 }
 
 .ow {
-    background-color: var(--lighter-grey);
+  background-color: var(--lighter-grey);
 }
 
 /** footer **/
 
-
 .footer {
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
-    color: white;
-    border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .footer .link {
-    color: white;
+  color: white;
 }
 
 .footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-    padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 1rem;
 }
 
-.footer ul{
-    padding-inline-start: 0px;
+.footer ul {
+  padding-inline-start: 0px;
 }
 
 .sm-footer {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    font-size: 2rem;
-    font-family: "Roboto Slab", sans-serif;
-  }
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: "Roboto Slab", sans-serif;
+}
 
 .sm-footer a,
 .sm-footer a:visited {
@@ -193,128 +190,136 @@ hr {
 
 /** margin **/
 
-.margin-md{
-    padding: 2rem 0;
+.margin-md {
+  padding: 2rem 0;
 }
 
-
 .social-media {
-    text-align: center;
-  }
-  
-  .social-media .social-media--link {
-    text-decoration: none;
-    font-size: 2rem;
-    margin-right: 1rem;
-  }
-  
-  .social-media .social-media--link:last-child {
-    margin-right: 0;
-  }
+  text-align: center;
+}
 
-  .social-media .social-media--icon {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
+.social-media .social-media--link {
+  text-decoration: none;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
 
-  .section-carousal {
-    height: 300px;
-    margin: auto;
-    overflow: hidden;
-  }
+.social-media .social-media--link:last-child {
+  margin-right: 0;
+}
 
+.social-media .social-media--icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 
-  .container-carousal {
-    position: relative;
-    width: 300px;
-    margin: 10px auto 0 auto;
-    perspective: 2000px;
+.section-carousal {
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container-carousal {
+  position: relative;
+  width: 300px;
+  margin: 10px auto 0 auto;
+  perspective: 2000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px #171616, 0 0 5px #000000;
+}
+
+.carousel__face:nth-child(1) {
+  background-image: url("https://media.istockphoto.com/photos/happy-family-choosing-a-new-car-in-a-showroom-picture-id1216835172?k=20&m=1216835172&s=612x612&w=0&h=THfkxHcKzZTRNOJ3-ZVdt6SWlER2f6a--b80FsS8poo=");
+  transform: rotateY(0deg) translateZ(430px);
+}
+.carousel__face:nth-child(2) {
+  background-image: url("https://images.livemint.com/img/2020/01/22/1600x900/maruti_1579681679020.jpg");
+  transform: rotateY(45deg) translateZ(430px);
+}
+.carousel__face:nth-child(3) {
+  background-image: url("https://www.cannonautorepair.com/images/mechanic_with_customer.jpeg");
+  transform: rotateY(90deg) translateZ(430px);
+}
+.carousel__face:nth-child(4) {
+  background-image: url("https://5.imimg.com/data5/US/IT/UM/ANDROID-23455214/product-jpeg-500x500.jpg");
+  transform: rotateY(135deg) translateZ(430px);
+}
+.carousel__face:nth-child(5) {
+  background-image: url("https://4.imimg.com/data4/OS/EA/MY-2627823/house-painting-work-500x500.jpg");
+  transform: rotateY(180deg) translateZ(430px);
+}
+.carousel__face:nth-child(6) {
+  background-image: url("https://5.imimg.com/data5/XN/CO/CK/SELLER-42874186/ceiling-design-with-jaali-pattern-500x500.jpg");
+  transform: rotateY(225deg) translateZ(430px);
+}
+.carousel__face:nth-child(7) {
+  background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/06/Sri-Krishna-Temple.jpg");
+  transform: rotateY(270deg) translateZ(430px);
+}
+.carousel__face:nth-child(8) {
+  background-image: url("/images/event-management.jpg");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: rotateY(315deg) translateZ(430px);
+}
+/* .carousel__face:nth-child(9) {
+  background-image: url("https://img.huffingtonpost.com/asset/5db14163210000ae2534ae1c.jpeg?cache=l9xmUCwyIJ&ops=scalefit_720_noupscale");
+  transform: rotateY(320deg) translateZ(430px);
+} */
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
   }
-  
-  .carousel {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d; 
-    animation: rotate360 60s infinite forwards linear;
+  to {
+    transform: rotateY(-360deg);
   }
-  .carousel__face { 
-    position: absolute;
-    width: 300px;
-    height: 187px;
-    top: 20px;
-    left: 10px;
-    right: 10px;
-    background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
-    display: flex;
-  }
-  
-  span {
-    margin: auto;
-    font-size: 1rem;
-    font-weight: bold;
-    color: white;
-    text-shadow: 0 0 5px #171616, 0 0 5px #000000;
-  }
-  
-  
-  .carousel__face:nth-child(1) {
-    background-image: url("https://media.istockphoto.com/photos/happy-family-choosing-a-new-car-in-a-showroom-picture-id1216835172?k=20&m=1216835172&s=612x612&w=0&h=THfkxHcKzZTRNOJ3-ZVdt6SWlER2f6a--b80FsS8poo=");
-    transform: rotateY(  0deg) translateZ(430px); }
-  .carousel__face:nth-child(2) { 
-    background-image: url("https://images.livemint.com/img/2020/01/22/1600x900/maruti_1579681679020.jpg");
-      transform: rotateY( 40deg) translateZ(430px); }
-  .carousel__face:nth-child(3) {
-    background-image: url("https://www.cannonautorepair.com/images/mechanic_with_customer.jpeg");
-    transform: rotateY( 80deg) translateZ(430px); }
-  .carousel__face:nth-child(4) {
-    background-image: url("https://5.imimg.com/data5/US/IT/UM/ANDROID-23455214/product-jpeg-500x500.jpg");
-    transform: rotateY(120deg) translateZ(430px); }
-  .carousel__face:nth-child(5) { 
-    background-image: url("https://4.imimg.com/data4/OS/EA/MY-2627823/house-painting-work-500x500.jpg");
-   transform: rotateY(160deg) translateZ(430px); }
-  .carousel__face:nth-child(6) { 
-    background-image: url("https://5.imimg.com/data5/XN/CO/CK/SELLER-42874186/ceiling-design-with-jaali-pattern-500x500.jpg");
-   transform: rotateY(200deg) translateZ(430px); }
-  .carousel__face:nth-child(7) { 
-    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/06/Sri-Krishna-Temple.jpg");
-   transform: rotateY(240deg) translateZ(430px); }
-  .carousel__face:nth-child(8) {
-    background-image: url("https://www.99entranceexam.in/wp-content/uploads/2018/01/Event-Management.jpg");
-    transform: rotateY(280deg) translateZ(430px); }
-  .carousel__face:nth-child(9) {
-    background-image: url("https://img.huffingtonpost.com/asset/5db14163210000ae2534ae1c.jpeg?cache=l9xmUCwyIJ&ops=scalefit_720_noupscale");
-    transform: rotateY(320deg) translateZ(430px); }
-  
-  
-  
-  @keyframes rotate360 {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(-360deg);
-    }
-  }
-  
-  .input, .textarea {
-    box-shadow: inset 0 0.0625em 0.125em rgb(43 37 35 / 5%);
-    max-width: 100%;
-    width: 100%;
+}
+
+.input,
+.textarea {
+  box-shadow: inset 0 0.0625em 0.125em rgb(43 37 35 / 5%);
+  max-width: 100%;
+  width: 100%;
 }
 
 .information-section-image {
-    width: 450px;
-    height: 200px;
-    background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.05);
-    display: flex;
-    justify-content: center;
+  width: 450px;
+  height: 200px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
 }
 
 .information-section-image:hover {
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
 }
 
 .information-message-title {
@@ -325,7 +330,6 @@ hr {
   font-weight: bold;
   color: rgb(255, 255, 255);
   text-shadow: 0 0 5px #171616, 0 0 5px #000000;
-            
 }
 
 .information-message-title:hover {
@@ -378,13 +382,15 @@ hr {
 }
 
 .tourism-hotel {
-  background-image: url("https://img.huffingtonpost.com/asset/5db14163210000ae2534ae1c.jpeg?cache=l9xmUCwyIJ&ops=scalefit_720_noupscale"); 
+  background-image: url("https://img.huffingtonpost.com/asset/5db14163210000ae2534ae1c.jpeg?cache=l9xmUCwyIJ&ops=scalefit_720_noupscale");
 }
 
 .tourism-engagement {
-  background-image: url("https://www.99entranceexam.in/wp-content/uploads/2018/01/Event-Management.jpg");
+  background-image: url("/images/event-management.jpg");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-
 
 .bio-layout {
   display: flex;
@@ -404,7 +410,7 @@ hr {
     width: 300px;
     height: 200px;
     background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
   }
