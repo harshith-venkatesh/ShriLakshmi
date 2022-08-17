@@ -6,7 +6,7 @@
   --light-grey: #6b7280;
   --dark-grey: #4b5563;
   --lighter-grey: #f1f5f9;
-  --purple-50: #60a5fa;
+  --purple-50: #3b82f6;
   --sky-800: #075985;
 }
 
@@ -278,7 +278,7 @@ span {
   transform: rotateY(225deg) translateZ(430px);
 }
 .carousel__face:nth-child(7) {
-  background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/06/Sri-Krishna-Temple.jpg");
+  background-image: url("/images/udupi-krishna-temple.jpeg");
   transform: rotateY(270deg) translateZ(430px);
 }
 .carousel__face:nth-child(8) {
@@ -378,7 +378,7 @@ span {
 }
 
 .tourism-udupi {
-  background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/06/Sri-Krishna-Temple.jpg");
+  background-image: url("/images/udupi-krishna-temple.jpeg");
 }
 
 .tourism-hotel {
