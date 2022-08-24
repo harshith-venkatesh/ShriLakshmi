@@ -403,6 +403,12 @@ span {
 
 .bio-image-section {
   margin: auto;
+
+}
+
+.bio-image-section img {
+  width: 200px;
+  height: 300px;
 }
 
 .copyright-info {
@@ -429,6 +435,12 @@ span {
   .navigation .nav-brand { 
     font-size: 1.4rem;
   }
+
+  .bio-image-section img {
+    width: 150px;
+    height: 150px;
+  }
+  
 }
 
 a { color: inherit; } 
