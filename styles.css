@@ -433,6 +433,14 @@ span {
     justify-content: center;
   }
 
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    margin: auto;
+  }
+
   .bio-layout {
     display: flex;
     flex-direction: column;
