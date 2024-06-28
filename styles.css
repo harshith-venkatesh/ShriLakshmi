@@ -488,7 +488,7 @@ span {
 }
 
 .image-header-3 {
-  background-image: url("/images/a5.png");
+  background-image: url("/images/a6.png");
   background-size: cover; 
   object-fit: cover;
 }
@@ -508,6 +508,10 @@ span {
 
 .image-header-7 {
   background-image: url("/images/a4.png");
+}
+
+.image-header-8 {
+  background-image: url("/images/a8.png");
 }
 
 @media only screen and (max-width: 600px) {
