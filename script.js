@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         intervalId = setInterval(() => {
             let nextIndex = (currentIndex + 1) % slides.length;
             showSlide(nextIndex);
-        }, 2000);
+        }, 1000);
     }
 
     dots.forEach((dot, index) => {

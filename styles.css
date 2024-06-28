@@ -487,6 +487,29 @@ span {
   background-image: url("/images/image-header-2.png");
 }
 
+.image-header-3 {
+  background-image: url("/images/a5.png");
+  background-size: cover; 
+  object-fit: cover;
+}
+
+.image-header-4 {
+  background-image: url("/images/a5.png");
+  background-size: cover; 
+}
+
+.image-header-5 {
+  background-image: url("/images/a2.png");
+}
+
+.image-header-6 {
+  background-image: url("/images/a3.png");
+}
+
+.image-header-7 {
+  background-image: url("/images/a4.png");
+}
+
 @media only screen and (max-width: 600px) {
   .information-section-image {
     width: 300px;
